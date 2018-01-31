@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#pageOne h1{
+  margin-top: 6em;
+  font-family: 'Khand', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  font-style: italic;
+  color: ivory;
+
+}
+#pageOne h2{
+  font-family: 'Khand', sans-serif;
+  font-size: 6em;
+  text-align: center;
+  font-style: bold;
+color: ivory;
+}
+
+div#pageOne{
+  background: url("theview.jpg");
+  height: 60em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  }
+  #myPage{
+    height: 60em;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-no-repeat;
+    display: flex;
+  }
+  #myPage img {
+    margin-top: 3em;
+    margin-left: 15em;
+    padding: inherit;
+  }
+  #myPage h1{
+    margin-top: 3em;
+    font-family: 'Khand', sans-serif;
+    font-size: 3em;
+    text-align: center;
+
+    color: ivory;
+  }
+  #myPage p{
+    margin-top: 6em;
+    font-family: 'Khand', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+    color: ivory;
+  }
+  #myPic img{
+    border: 2px solid ivory;
+    border-radius: 90px;
+  }
+  #portfolio {
+    height: 60em;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-no-repeat;
+    display: flex;
+  }
+  #portfolio h1{
+    margin-top: 3em;
+    font-family: 'Khand', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: ivory;
+  }
+
+  #navbar {
+      height: 60px;
+      width: 100%;
+      color: ivory;
+      position: fixed;
+      z-index: 100;
+  }
+  #navbar nav h1{
+    margin-top: 0.9em;
+    margin-left: 1.2em;
+    float:  left;
+    font-family: 'Khand', sans-serif;
+    font-size: 2em;
+    text-decoration: bold;
+  }
+  #navbar nav ul {
+
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+
+
+  }
+
+  #navbar nav ul li {
+      float:right;
+      text-align: center;
+      list-style: none;
+      list-style-position: center;
+      display: inline-block;
+      position: relative;
+      color: ivory;
+  }
+
+  #navbar nav ul li a{
+      font-family: 'Khand', sans-serif;
+      color: black;
+      display: block;
+      text-decoration: none;
+      padding: 20px 30px;
+      font-size: 2em;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: ivory;
+      transition: background-color 0.5s ease;
+
+  }
+  #navbar nav ul li a:hover{
+      color: black;
+      text-decoration: none;
+      background-color: rgba(255,255,255,0.3);
+  }
+#socialMedia ul {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+#socialMedia ul li{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  list-style-position: center;
+  position: relative;
+}
+
+#socialMedia {
+    font-family: 'Khand', sans-serif;
+    margin-top: 20em;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+  }
